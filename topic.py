@@ -1,10 +1,13 @@
 from googleapiclient.discovery import build
 import pymongo
 
+import apikeys
+
+
 class Topic():
     def __init__(self, name):
         self.name = name
-        self.youtube = build('youtube', 'v3', developerKey='AIzaSyCAs9vfsygT-ykCjjkpMBZ-GJ__lADVhC8')
+        self.youtube = build('youtube', 'v3', developerKey=apikeys.get_yt_key()) # insert own api key here
         self.channels = {}
         self.views = {}
 
