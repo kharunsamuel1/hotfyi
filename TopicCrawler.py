@@ -35,22 +35,6 @@ class TopicCrawler:
         )
         return response.choices[0].message.content
 
-    def chat_with_chatgpt(prompt):
-        url = "https://api.openai.com/v1/chat/gpt-3.5-turbo-0125/completions"
-        headers = {
-            "Content-Type": "application/json",
-            "Authorization": "Bearer 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"  # replace with api key
-        }
-        data = {
-            "prompt": prompt,
-            "max_tokens": 1000  # Adjust the max tokens as per your requirement
-        }
-        response = requests.post(url, headers=headers, json=data)
-        if response.status_code == 200:
-            return response.json()["choices"][0]["text"]
-        else:
-            return "Error: Failed to communicate with ChatGPT API"
-
     def initialize_db(self):
         conn = Connection()
         db = conn['hfdb']

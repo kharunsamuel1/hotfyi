@@ -91,18 +91,7 @@ class Topic():
                                                    ('RC3zg1gIBWU', 13272), ('TUR0B5sMqj8', 18205), ('1vAC9xms4i4', 12410),
                                                    ('VymNsmvpUo0', 16866), ('qJqYvirSulg', 67333), ('8p4afmqduJw', 28594),
                                                    ('Soe0pXXxvOs', 16880), ('oiUdy8k6QIY', 8812), ('iR5LtqAbAwQ', 10799),
-                                                   ('_GNo0xcweng', 11439), ('knkvnmkhikc', 12269), ('-lYQsEfSph4', 5876)],
-                      'UCV5_FNKj1x-EB4dGTUTltHA': [('u0j1NBVOBlk', 57158), ('uIIRs12PhGw', 15396), ('g5cmV5NgpL0', 12074),
-                                                   ('is9uEJCqhVo', 163394), ('_8n9FEXCI-I', 13986), ('ghUfgfw5qaQ', 11609),
-                                                   ('AtiN6fj5Y9M', 30104), ('VjvmY-0mk5s', 37393), ('n-vdHxpbThg', 48911),
-                                                   ('wcd4PVf3EEI', 49940), ('GggKg2apEUQ', 24906), ('2mzy3_wE5D0', 58409),
-                                                   ('CARc_GevFjg', 124000), ('Ss4XehLJIOs', 51124), ('8zgOw3fNoE4', 23442)],
-                      'UCblfuW_4rakIf2h6aqANefA': [('IW7lxmqrvuA', 33543), ('EpZUFICDdpA', 103664), ('AlYfVwPfeK8', 187156),
-                                                   ('3i-C0T8u5PY', 133554), ('B1OopoRdKz8', 150202), ('oyN22tqx0_Y', 143190),
-                                                   ('I2ZzqdlGbn0', 253113), ('NqI6b8tDzSc', 2123091), ('NCx3Pve3Bhw', 159732),
-                                                   ('qKi6vTpIDLw', 202054), ('gSOlczNZsII', 1690163), ('kLWM2f14e64', 1200110),
-                                                   ('zf1h5WNErrQ', 430953), ('-HNqrdHxq34', 1007078), ('P7rnLMrqZxk', 927209)]}
-
+                                                   ('_GNo0xcweng', 11439), ('knkvnmkhikc', 12269), ('-lYQsEfSph4', 5876)]}
     def exploreTopic2(self):
         query = self.name
         max_results = 10
